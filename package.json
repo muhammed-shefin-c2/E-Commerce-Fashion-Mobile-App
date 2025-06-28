@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce backend service",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.13.2",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.9"
+  }
+}
